@@ -1,0 +1,1 @@
+Neste repositório vou atualizar todos os meus estudos diariamente, no presente momento estou estudando a base do framework Bootstrap 4. Por enquanto já tenho conhecimento intermédiario em HTML, CSS e JavaScript, depois pretendo me aprofundar em todas essas citadas enquanto desenvolvo alguns projetos de estudo. 
