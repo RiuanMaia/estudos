@@ -98,13 +98,47 @@
     <!-- <button class="btn btn-dark alert-open--button">Abrir</button> 
     <button class="btn btn-dark alert-close--button">Fechar</button>-->
 
-    <!-- estudo sobre botões e furpos de botões -->
+    <!-- estudo sobre botões e grupos de botões 
         <div class="btn-group-vertical">
             <a href="#" class="btn btn-dark">Botão</a>
             <button class="btn btn-outline-dark">Botão</button>
             <input class="btn btn-outline-success btn-block" type="submit" value="Botão"/>
+        </div> -->
+        <!-- estudo da estrutura de um slideshow -->
+        <div id="slideshow"  class="slide carousel">
+            <!-- indicadores: -->
+            <ol class="carousel-indicators">
+                <li class="active" data-target="#slideshow" data-slide-to="0"></li>
+                <li data-target="#slideshow" data-slide-to="1"></li>
+                <li data-target="#slideshow" data-slide-to="2"></li>
+                <li data-target="#slideshow" data-slide-to="3"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active"> 
+                    <img class="w-100" src="assets/images/wallpaper1.jpg"/>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="assets/images/wallpaper2.jpg"/>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="assets/images/wallpaper3.jpg"/>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="assets/images/wallpaper4.jpg"/>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev"  href="#slideshow" data-slide="prev"> 
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#slideshow" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
         </div>
     </div>
+    
+    
      
 
     <!-- <script src="assets/js/script.js"></script> -->
