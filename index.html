@@ -21,6 +21,17 @@
         }
         */
         /* conteúdos (lembrar-se do media, formas de estruturação onde você é capaz de montar um layout de comentário rapidamente. classes: media, mr-3 (margem), media-body que será o comentário propriamente dito ) */
+        /* 
+        //estudo sobre o conceito de collapse:
+        #area{
+            background-color: #eeeeee;
+            border-radius: 10px;
+            width: 100%;
+            border: 1px solid #ccc;
+            margin-top: 10px;
+            padding: 5px;
+        }
+        */
     </style>
 </head>
 <body>
@@ -104,9 +115,9 @@
             <button class="btn btn-outline-dark">Botão</button>
             <input class="btn btn-outline-success btn-block" type="submit" value="Botão"/>
         </div> -->
-        <!-- estudo da estrutura de um slideshow -->
+        <!-- estudo da estrutura de um slideshow 
         <div id="slideshow"  class="slide carousel">
-            <!-- indicadores: -->
+             indicadores:
             <ol class="carousel-indicators">
                 <li class="active" data-target="#slideshow" data-slide-to="0"></li>
                 <li data-target="#slideshow" data-slide-to="1"></li>
@@ -135,6 +146,12 @@
             <a class="carousel-control-next" href="#slideshow" data-slide="next">
                 <span class="carousel-control-next-icon"></span>
             </a>
+        </div> -->
+        <!-- conceito collapse: -->
+        <!-- teremos um botão que quando clicadoalgum conteudo que estava escondido vai aparecer na tela e vise versa-->
+        <button class="btn btn-dark" data-toggle="collapse" data-target="#area">Mostrar/Esconder</button>
+        <div class="collapse" id="area">
+            conteúdo oculto
         </div>
     </div>
     
