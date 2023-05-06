@@ -344,7 +344,7 @@
             </form>
         </nav>
         -->
-        <!-- Paginação -->
+        <!-- Paginação 
         <ul class="pagination pagination-sm justify-content-center">
 
             <li class="page-item disabled"><a href="#" class="page-link">Anterior</a></li>
@@ -356,6 +356,9 @@
             <li class="page-item"><a href="#" class="page-link">Próxima</a></li>
 
         </ul>
+        -->
+        <!-- tooltip -->
+        <button class="btn btn-success" data-toggle="tooltip" data-placement="bottom" title="Salvar dados do usuário">Salvar</button>
     </div>
     
     
@@ -364,6 +367,11 @@
     <!-- <script src="assets/js/script.js"></script> -->
     <script src="JQUERY/jquery364.js"></script>
     <script src="JQUERY/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
     
 </body>
 </html>
