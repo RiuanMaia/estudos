@@ -1,0 +1,14 @@
+.img-rm{
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+}
+.text-shadow {
+    text-shadow: 4px 4px 1px #000;
+}
+.font-50 {
+    font-size: 50px;
+}
+.font-75 {
+    font-size: 75px;
+}
